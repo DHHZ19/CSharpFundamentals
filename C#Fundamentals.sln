@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4188952-0A68-4F4C-9A6A-243898BBD587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeBook", "src\GradeBook\GradeBook.csproj", "{F1A291A9-B03D-45D3-8D92-F4A0A745DB5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4E43A902-330D-493E-B89F-1A5732B2CC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeBook.Test", "src\test\GradeBook.Tests\GradeBook.Test.csproj", "{B6AF5B9E-54BF-4F2F-9B4F-477AC86B2AD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1A291A9-B03D-45D3-8D92-F4A0A745DB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A291A9-B03D-45D3-8D92-F4A0A745DB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A291A9-B03D-45D3-8D92-F4A0A745DB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A291A9-B03D-45D3-8D92-F4A0A745DB5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6AF5B9E-54BF-4F2F-9B4F-477AC86B2AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AF5B9E-54BF-4F2F-9B4F-477AC86B2AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AF5B9E-54BF-4F2F-9B4F-477AC86B2AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AF5B9E-54BF-4F2F-9B4F-477AC86B2AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1A291A9-B03D-45D3-8D92-F4A0A745DB5F} = {A4188952-0A68-4F4C-9A6A-243898BBD587}
+		{4E43A902-330D-493E-B89F-1A5732B2CC55} = {A4188952-0A68-4F4C-9A6A-243898BBD587}
+		{B6AF5B9E-54BF-4F2F-9B4F-477AC86B2AD7} = {4E43A902-330D-493E-B89F-1A5732B2CC55}
+	EndGlobalSection
+EndGlobal
